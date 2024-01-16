@@ -1,3 +1,4 @@
 /app.ipynb
 /venv
-/.env
+.env
+/env
