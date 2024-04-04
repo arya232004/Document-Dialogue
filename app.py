@@ -115,7 +115,7 @@ def speak_text(text):
                     }</style>
                     """,unsafe_allow_html=True)
 
-    except(Exception ):
+    except(Exception):
         st.write(Exception)
 
 
