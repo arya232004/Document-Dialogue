@@ -5,3 +5,6 @@ langchain
 PyPDF2
 faiss-cpu
 langchain_google_genai
+streamlit_markup
+gtts 
+io
