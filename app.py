@@ -93,7 +93,7 @@ def user_input(user_question):
         {"input_documents":docs, "question": user_question}
         , return_only_outputs=True)
 
-    st.write("Reply: ", response["output_text"])
+    st.success(response["output_text"])
     speak_text(response['output_text'])
     print(response["output_text"])
     acc=get_accuracy(response["output_text"],docs[0])
