@@ -119,15 +119,6 @@ def speak_text(text):
         st.write(Exception)
 
 
-# def generate_markdown(chunks):
-#     model = genai.GenerativeModel('gemini-pro')
-#     prompt = PromptTemplate(template='Generate an accurate markdown file from the provided context. \n\n # Context: \n {context} \n\n # Markdown: \n', input_variables=['context'])
-#     chain = model.generate_content(['Generate an accurate markdown file from the provided context.', chunks[0]])
-#     chain.resolve()
-#     print(chunks)
-#     print(chain.prompt_feedback)
-#     markmap(chain.text)
-
 def generate_markdown(text):
     query = rf"""
         Study the given {text} and generate a summary then please be precise in selecting the data such that it gets to a heirarchical structure. Dont give anything else, i just want to display the structure as a mindmap so be precise please. Dont write anything else, Just return the md file. It is not neccessay to cover all information. dont use triple backticks or ` anywhere. Cover the main topics. Please convert this data into a markdown mindmap format similar to the following example:
@@ -163,11 +154,10 @@ def generate_markdown(text):
 
 
 def main():
-    st.set_page_config("Chat PDF",layout="wide")
+    st.set_page_config("Document Dialogue",layout="wide")
     st.header("Chat with PDF seamlessly")
 
     user_question = st.text_input("Ask a Question from the PDF")
-
   
     if user_question:
         user_input(user_question)
