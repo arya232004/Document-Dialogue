@@ -8,7 +8,6 @@ from langchain.prompts import PromptTemplate
 import webbrowser
 from dotenv import load_dotenv
 from gtts import gTTS
-from streamlit_modal import Modal
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
@@ -70,7 +69,7 @@ def get_accuracy(ai_response, pdf_data):
     
 
 def get_converstaion_chain(): 
-    prompt_template=""" Answer the question as detailed as possible from the provided context, make sure to provide all the details, the user wants to chat with the pdf so help him out by making sure the user is not dissapointed with response. \n
+    prompt_template=""" Answer the question as detailed as possible from the provided context, make sure to provide all the details, the user wants to chat with the pdf so help him out by making sure the user is not dissapointed with response. analyze the context thoroughly\n
     as much as possible. \n
     
     # Context:\n {context}> \n
@@ -149,8 +148,6 @@ def generate_markdown(text):
     response = model.generate_content(query)
     response.resolve()
     markmap(response.text)
-
-
 
 
 def main():
