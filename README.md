@@ -19,3 +19,14 @@ To get started with ChatWithPDF, follow these steps:
    ```bash
    git clone https://github.com/arya232004/chatpdf.git
    cd chatwithpdf
+2. **Install the required dependencies:**:
+   ```bash
+   pip install -r requirements.txt
+3. **Set up environment variables: Create a .env file in the root directory and add the necessary API keys and configurations. Example:**:
+   ```bash
+   GOOGLE_API_KEY=GOOGLE_API_KEY
+4. **Run the application:**:
+      ```bash
+   python app.py
+
+   
