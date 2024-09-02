@@ -1,6 +1,6 @@
-# ChatWithPDF
+# Document Dialogue
 
-ChatWithPDF is an advanced tool designed to analyze and interact with PDF documents. It supports multiple languages, offers detailed diagram analysis, and provides various features such as summarization, translation, text-to-audio conversion, and markmap generation for a comprehensive understanding of the content.
+Document Dialogue is an advanced tool designed to analyze and interact with PDF documents. It supports multiple languages, offers detailed diagram analysis, and provides various features such as summarization, translation, text-to-audio conversion, and markmap generation for a comprehensive understanding of the content.
 
 ## Features
 
@@ -13,7 +13,7 @@ ChatWithPDF is an advanced tool designed to analyze and interact with PDF docume
 
 ## Installation
 
-To get started with ChatWithPDF, follow these steps:
+To get started with Document Dialogue, follow these steps:
 
 1. **Clone the repository**:
    ```bash
