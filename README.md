@@ -29,4 +29,6 @@ To get started with ChatWithPDF, follow these steps:
       ```bash
    python app.py
 
-   
+![image](https://github.com/user-attachments/assets/59f0b245-e10f-473a-80bb-814d88dd0476)
+
+![image](https://github.com/user-attachments/assets/831145ef-bd57-4510-b06c-d47f590f1513)
