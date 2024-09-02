@@ -1,6 +1,6 @@
 # Document Dialogue
 
-Document Dialogue is an advanced tool designed to analyze and interact with PDF documents. It supports multiple languages, offers detailed diagram analysis, and provides various features such as summarization, translation, text-to-audio conversion, and markmap generation for a comprehensive understanding of the content.
+Document Dialogue is an advanced tool designed to analyze and interact with PDF documents. It supports multiple languages, offers detailed diagram analysis, and provides various features such as summarization, translation, text-to-audio conversion, and markmap generation for a comprehensive understanding of the content along with the accuracy of text respect to context.
 
 ## Features
 
@@ -10,6 +10,7 @@ Document Dialogue is an advanced tool designed to analyze and interact with PDF 
 - **Summary Generation**: Automatically generate concise summaries of the PDF content, saving time and providing quick overviews.
 - **Translation**: Translate the content of the PDF into different languages, facilitating understanding across language barriers.
 - **Text-to-Audio Conversion**: Convert the PDF content into audio format, enabling users to listen to the document, useful for multitasking or accessibility purposes.
+- **Accuracy**: Get the accuracy of the generated text, about how relevant the response is.
 
 ## Installation
 
