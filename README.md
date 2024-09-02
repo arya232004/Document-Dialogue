@@ -17,8 +17,8 @@ To get started with Document Dialogue, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/arya232004/chatpdf.git
-   cd chatwithpdf
+   git clone https://github.com/arya232004/Document-Dialogue.git
+   cd Document-Dialogue
 2. **Install the required dependencies:**:
    ```bash
    pip install -r requirements.txt
